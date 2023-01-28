@@ -4,6 +4,10 @@
         android:label="aqi_wizard"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyCAmnv1v5Y69Or7ZUpRRj_eQ7LAj6-k_pg"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
